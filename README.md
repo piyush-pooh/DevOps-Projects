@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 
 # DevOps Projects 🚀
 
 Welcome to the ultimate resource for learning DevOps through hands-on, real-world projects.  
 This repository is designed for aspiring DevOps engineers of all skill levels — from beginners starting their journey to advanced practitioners looking to deepen their expertise.
+=======
+![YOUR_BANNER](https://github.com/user-attachments/assets/29b89ea8-acf0-4b58-a33c-2e021328bcef)
+
+Filesystem Architecture Diagram
+
+![YOUR_DIAGRAM](https://github.com/user-attachments/assets/f619c450-2c27-4900-925e-373da69798bf)
+>>>>>>> c6ec110 (New Diagram Uploaded)
 
 ---
 
