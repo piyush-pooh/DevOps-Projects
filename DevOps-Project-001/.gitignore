@@ -1,0 +1,6 @@
+inode_modules
+.env
+.next
+dist
+build
+

@@ -1,0 +1,122 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  
+  --font-sans: 'DM Sans', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  
+  --radius: 0.5rem;
+}
+
+:root {
+  /* Warm, Editorial Palette */
+  /* Background: Soft Cream #F9F9F8 */
+  --background: 40 8% 97%;
+  /* Foreground: Dark Charcoal #1A1A1A */
+  --foreground: 0 0% 10%;
+
+  /* Card: Slightly lighter white for contrast or transparent */
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 10%;
+
+  /* Popover */
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 10%;
+
+  /* Primary: Terracotta/Burnt Orange #C25E00 */
+  --primary: 29 100% 38%;
+  --primary-foreground: 0 0% 98%;
+
+  /* Secondary: Soft Gray #F0F0F0 */
+  --secondary: 0 0% 94%;
+  --secondary-foreground: 0 0% 10%;
+
+  /* Muted: #888888 */
+  --muted: 0 0% 96%;
+  --muted-foreground: 0 0% 45%;
+
+  /* Accent: Muted Gold/Tan */
+  --accent: 35 30% 90%;
+  --accent-foreground: 29 100% 38%;
+
+  /* Destructive */
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+
+  /* Borders */
+  --border: 0 0% 90%;
+  --input: 0 0% 90%;
+  --ring: 29 100% 38%;
+
+  --radius: 0.5rem;
+}
+
+.dark {
+  /* Dark Mode: Deep Charcoal/Slate */
+  --background: 220 13% 10%; /* #16181D */
+  --foreground: 40 8% 97%;
+
+  --card: 220 13% 13%;
+  --card-foreground: 40 8% 97%;
+
+  --popover: 220 13% 13%;
+  --popover-foreground: 40 8% 97%;
+
+  --primary: 29 90% 48%; /* Brighter Orange for dark mode */
+  --primary-foreground: 0 0% 98%;
+
+  --secondary: 220 13% 18%;
+  --secondary-foreground: 40 8% 97%;
+
+  --muted: 220 13% 18%;
+  --muted-foreground: 220 10% 65%;
+
+  --accent: 220 13% 20%;
+  --accent-foreground: 40 8% 97%;
+
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 220 13% 20%;
+  --input: 220 13% 20%;
+  --ring: 29 90% 48%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-medium tracking-tight;
+  }
+}
