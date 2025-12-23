@@ -1,7 +1,3 @@
-# DevOps-Project-001
-
-Project setup in progress.
-
 Piyush.Cloud - Cloud & DevOps Portfolio
 
 A modern, responsive portfolio website showcasing cloud engineering expertise, projects, and professional journey. Built with React, TypeScript, and Tailwind CSS.
@@ -259,3 +255,4 @@ Built with Replit
 Designed with Tailwind CSS
 Icons from Lucide React
 Components from Shadcn/UI
+
