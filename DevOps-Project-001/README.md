@@ -1,5 +1,7 @@
 # Piyush.Cloud – Cloud & DevOps Portfolio ☁️🚀
 
+<img width="1469" height="825" alt="SCR-20251222-tllu" src="https://github.com/user-attachments/assets/6f8d93a5-5c9f-4618-872a-1b63ccfb4c06" />
+
 A modern, responsive portfolio website showcasing cloud engineering expertise, real-world projects, and professional growth.  
 Built with **React**, **TypeScript**, and **Tailwind CSS**.
 
@@ -75,6 +77,7 @@ It highlights both technical expertise and a philosophy of continuous learning.
 
 ## 📁 Project Structure
 
+
 ```text
 .
 ├── client/
@@ -137,6 +140,9 @@ Navigate to:
 You should see your portfolio live with hot-reload enabled.
 
 ## 👤 About the Creator
+
+<img width="1466" height="822" alt="image" src="https://github.com/user-attachments/assets/a26b4fea-31a4-42e1-8de7-0eecb57bbd6a" />
+
 
 **Piyush Sharma**  
 Cloud & DevOps Engineer | AWS | Kubernetes | Terraform
