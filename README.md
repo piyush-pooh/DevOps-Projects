@@ -1,6 +1,3 @@
-# DevOps-Projects
-Real World DevOps Projects For Aspiring Engineers [Mild to Extremely Spicy]
-
 # DevOps Projects 🚀
 
 A curated collection of hands-on, production-style DevOps projects designed to demonstrate real-world cloud and DevOps skills.
