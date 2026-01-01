@@ -158,8 +158,13 @@ To avoid unnecessary AWS charges:
 terraform destroy
 ```
 
-👤 Author
+**Piyush Sharma**  
+Cloud & DevOps Engineer | AWS | Kubernetes | Terraform
 
-Piyush Sharma
+<img width="804" height="381" alt="image" src="https://github.com/user-attachments/assets/2fe3cbfe-8cc1-419d-bf65-57cbfb532553" />
 
-Cloud | DevOps | AWS | Linux | Networking
+
+📧 **Email:** work.sharmapiyush@gmail.com  
+💼 **LinkedIn:** LinkedIn Profile  
+📝 **Blog:** Hashnode  
+📍 **Location:** Palampur, Himachal Pradesh, India
