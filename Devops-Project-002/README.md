@@ -1,5 +1,9 @@
 # 🚀 DevOps Project 002 – Serverless AWS E-Commerce Platform
 
+<img width="1021" height="458" alt="image" src="https://github.com/user-attachments/assets/806081e9-cc45-4fb1-a250-7bda29e3d666" />
+
+
+
 ## 📌 Overview
 
 This project demonstrates a **production-style, serverless e-commerce application** built entirely on AWS using **cloud-native and DevOps best practices**.
