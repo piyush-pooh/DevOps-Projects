@@ -1,5 +1,8 @@
 # 📦 DevOps-Project-004
 
+<img width="2108" height="1180" alt="image" src="https://github.com/user-attachments/assets/a2e37b4d-ed5d-4752-aaec-be74c104c71b" />
+
+
 ## Multi-Cloud Data Transfer: AWS S3 → Google Cloud Storage (GCS)
 
 ---
@@ -61,6 +64,9 @@ Google Cloud Storage (Destination Bucket)
 * Uploaded sample files to simulate production data
 * Ensured bucket accessibility for transfer services
 
+<img width="1902" height="1000" alt="image" src="https://github.com/user-attachments/assets/0e119a9f-d8c5-4e7a-9fc6-0d9389d5cf02" />
+
+
 ---
 
 ### 2️⃣ Destination Setup – Google Cloud
@@ -68,6 +74,9 @@ Google Cloud Storage (Destination Bucket)
 * Created a **GCP project**
 * Enabled **Cloud Storage** and **Storage Transfer Service**
 * Created a **GCS bucket** as the backup destination
+
+<img width="2102" height="864" alt="image" src="https://github.com/user-attachments/assets/3367c03c-01d9-409a-8df4-671c358590f4" />
+
 
 ---
 
@@ -77,6 +86,9 @@ Google Cloud Storage (Destination Bucket)
 * Configured a **trust policy** allowing GCP federation
 * Used `sts:AssumeRoleWithWebIdentity`
 * Attached **AmazonS3ReadOnlyAccess**
+
+<img width="2708" height="850" alt="image" src="https://github.com/user-attachments/assets/415e7efe-8d15-494b-b035-d02e9e1799b6" />
+
 
 > 🔐 **Why federation?**
 > Temporary credentials are more secure than static access keys and automatically expire.
@@ -90,11 +102,17 @@ Google Cloud Storage (Destination Bucket)
 * Scheduling mode: **Batch**
 * Authentication: **IAM Role ARN**
 
+<img width="1904" height="1026" alt="image" src="https://github.com/user-attachments/assets/0eeef1aa-d2e0-4f38-b5ff-4bbbf09b95c6" />
+
+
 Optional features reviewed:
 
 * Prefix filtering
 * Manifest-based selective transfer
 * Overwrite and deletion policies
+
+<img width="1020" height="1948" alt="image" src="https://github.com/user-attachments/assets/44ec0d99-7e8e-41d2-9740-92ebb57f8ef2" />
+
 
 ---
 
@@ -104,6 +122,15 @@ Optional features reviewed:
 * Verified successful completion
 * Confirmed file availability in GCS
 * Ensured data integrity and permissions
+
+
+<img width="2304" height="1464" alt="image" src="https://github.com/user-attachments/assets/6b0e92ed-6b4d-4d80-9d62-fa03d2282d43" />
+
+<img width="2048" height="1066" alt="image" src="https://github.com/user-attachments/assets/eac95396-961f-44ca-a9a3-711a5219ef68" />
+
+<img width="2304" height="1464" alt="image" src="https://github.com/user-attachments/assets/802d7012-ed28-4dc9-ac71-289d78676edf" />
+
+<img width="2304" height="1464" alt="image" src="https://github.com/user-attachments/assets/7b06c3b9-e937-45eb-8b25-f1a823cd7e93" />
 
 ---
 
@@ -125,6 +152,26 @@ Optional features reviewed:
 * Managing large-scale data transfers safely
 
 ---
+~~~
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "Federated": "accounts.google.com"
+      },
+      "Action": "sts:AssumeRoleWithWebIdentity",
+      "Condition": {
+        "StringEquals": {
+          "accounts.google.com:sub": "SUBJECT_ID"
+        }
+      }
+    }
+  ]
+}
+~~~
+
 
 ## 🌍 Real-World Use Cases
 
