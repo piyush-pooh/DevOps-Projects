@@ -1,4 +1,7 @@
 # 📦 DevOps-Project-005  
+
+<img width="2956" height="1108" alt="image" src="https://github.com/user-attachments/assets/03ec738a-eab5-407d-af15-84e5ae06e07d" />
+
 ## AWS Secrets Access Monitoring & Alerting
 
 ---
@@ -8,6 +11,9 @@
 This project demonstrates how to **detect and alert on access to sensitive information in AWS** using native security and observability services.
 
 Whenever a secret stored in **AWS Secrets Manager** is accessed, the system automatically:
+
+<img width="2084" height="362" alt="image" src="https://github.com/user-attachments/assets/1f1fe0eb-aee4-4123-ba9d-bd7e3076f162" />
+
 
 - 📜 Logs the activity via **AWS CloudTrail**
 - 🔎 Filters the event using **Amazon CloudWatch Logs**
@@ -75,6 +81,11 @@ SNS Topic → Email Notification
 - Stored a dummy password (demo only)
 - Secret type: API keys and application secrets
 
+<img width="2896" height="554" alt="image" src="https://github.com/user-attachments/assets/db6465f9-d5c7-4772-af83-575bdaff6701" />
+
+<img width="2896" height="554" alt="image" src="https://github.com/user-attachments/assets/eb7df91b-4034-427a-8a66-d5e1f9499187" />
+
+
 > In real environments, this would store database credentials, OAuth tokens, or production secrets.
 
 ---
@@ -84,6 +95,9 @@ SNS Topic → Email Notification
 - Enabled **Management Events**
 - Enabled both **Read** and **Write** API activity
 - Configured CloudTrail to send logs to **CloudWatch Logs**
+
+<img width="2940" height="1552" alt="image" src="https://github.com/user-attachments/assets/a99b9cf5-c8db-41e2-b34b-3a56682f79e0" />
+
 
 **IAM role created automatically:**
 
@@ -126,6 +140,9 @@ Matching log events are converted into **CloudWatch metrics**.
   - Email alert received
 
 ✅ **End-to-end security monitoring confirmed**
+
+<img width="2100" height="772" alt="image" src="https://github.com/user-attachments/assets/d5cc2ce9-bbdc-49f7-83e5-b9c0dd5c0b4a" />
+
 
 ---
 
@@ -184,4 +201,5 @@ Accessing secrets is logged as a **Write event** due to its security impact.
 ## 🧠 Key Takeaway
 
 > This project demonstrates how security teams **detect, alert, and respond** to sensitive access events using AWS-native tooling — without third-party systems.
+
 
