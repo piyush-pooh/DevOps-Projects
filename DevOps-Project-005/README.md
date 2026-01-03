@@ -1,0 +1,187 @@
+# 📦 DevOps-Project-005  
+## AWS Secrets Access Monitoring & Alerting
+
+---
+
+## ⚡ 30-Second Summary
+
+This project demonstrates how to **detect and alert on access to sensitive information in AWS** using native security and observability services.
+
+Whenever a secret stored in **AWS Secrets Manager** is accessed, the system automatically:
+
+- 📜 Logs the activity via **AWS CloudTrail**
+- 🔎 Filters the event using **Amazon CloudWatch Logs**
+- 🚨 Triggers a **CloudWatch Alarm**
+- 📩 Sends a **real-time email alert** via **Amazon SNS**
+
+> This mirrors how production AWS environments monitor **credential access**, **insider threats**, and **security incidents**.
+
+---
+
+## 🎯 Why This Project Matters
+
+Access to secrets such as **API keys**, **database passwords**, and **application credentials** is one of the **highest-risk actions** in any cloud environment.
+
+This project demonstrates skills critical for roles such as:
+
+- DevOps Engineer  
+- Cloud Engineer  
+- Security Engineer  
+- Site Reliability Engineer (SRE)  
+
+> 🔐 You’re not just learning AWS services — you’re building a **real security control**.
+
+---
+
+## 🧱 Architecture Overview
+
+User / IAM Principal
+│
+▼
+AWS Secrets Manager (Secret Access)
+│
+▼
+AWS CloudTrail (Management Event Logged)
+│
+▼
+CloudWatch Logs + Metric Filter
+│
+▼
+CloudWatch Alarm
+│
+▼
+SNS Topic → Email Notification
+
+
+---
+
+## 🛠️ Services Used
+
+| Service | Purpose |
+|------|--------|
+| AWS Secrets Manager | Secure storage of sensitive data |
+| AWS CloudTrail | Logs management API activity |
+| Amazon CloudWatch | Log filtering, metrics, and alarms |
+| Amazon SNS | Real-time email notifications |
+
+---
+
+## 🧪 Project Stages & Implementation
+
+### 🟢 Stage 1: Secret Creation & Logging
+
+#### 🔑 Step 1: Create a Secret
+- Created a secret named `Secretinfo`
+- Stored a dummy password (demo only)
+- Secret type: API keys and application secrets
+
+> In real environments, this would store database credentials, OAuth tokens, or production secrets.
+
+---
+
+#### 🏞️ Step 2: Enable CloudTrail
+- Created a **multi-region trail**
+- Enabled **Management Events**
+- Enabled both **Read** and **Write** API activity
+- Configured CloudTrail to send logs to **CloudWatch Logs**
+
+**IAM role created automatically:**
+
+
+---
+
+#### 😈 Step 3: Verify Logging
+- Manually accessed the secret
+- Confirmed:
+  - CloudTrail recorded the event
+  - Log entry appeared in CloudWatch Logs
+
+---
+
+### 🟡 Stage 2: Monitoring & Alerting
+
+#### 🔎 Step 4: CloudWatch Metric Filter
+Created a metric filter that detects:
+- `GetSecretValue` API calls
+- Access to the specific secret name
+
+Matching log events are converted into **CloudWatch metrics**.
+
+---
+
+#### 🔔 Step 5: Alarm & Notification
+- Created a **CloudWatch Alarm**
+- Alarm triggers on **any secret access**
+- Alarm publishes to an **SNS topic**
+- Email endpoint subscribed to SNS
+
+---
+
+#### 💌 Step 6: Testing & Validation
+- Accessed the secret again
+- Verified:
+  - CloudTrail logged the event
+  - CloudWatch metric incremented
+  - Alarm triggered
+  - Email alert received
+
+✅ **End-to-end security monitoring confirmed**
+
+---
+
+## 📚 Key Concepts Demonstrated
+
+<details>
+<summary><strong>🔍 What is CloudTrail?</strong></summary>
+
+CloudTrail records **who did what, when, and from where** in your AWS account.  
+It is essential for security audits, incident response, and compliance.
+
+</details>
+
+<details>
+<summary><strong>📂 CloudTrail Event Types</strong></summary>
+
+- **Management Events** ✅ (used here)  
+- Data Events  
+- Insights Events  
+- Network Activity Events  
+
+Secret access is logged as a **Management Event**, which AWS tracks by default.
+
+</details>
+
+<details>
+<summary><strong>📖 Read vs Write API Events</strong></summary>
+
+- **Read** → Viewing resources  
+- **Write** → Creating, modifying, or accessing sensitive resources  
+
+Accessing secrets is logged as a **Write event** due to its security impact.
+
+</details>
+
+---
+
+## 🚀 Real-World Use Cases
+
+- Detect leaked or compromised IAM credentials
+- Monitor insider access to production secrets
+- Meet compliance requirements (SOC2, ISO 27001, PCI-DSS)
+- Improve incident response visibility
+
+---
+
+## 🧠 What I Learned
+
+- How AWS logs sensitive access events internally
+- How to convert logs into **actionable alerts**
+- How real security monitoring pipelines are built
+- Why **visibility is as important as prevention**
+
+---
+
+## 🧠 Key Takeaway
+
+> This project demonstrates how security teams **detect, alert, and respond** to sensitive access events using AWS-native tooling — without third-party systems.
+
