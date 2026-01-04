@@ -89,6 +89,7 @@ Google Cloud Storage (Destination Bucket)
 
 <img width="2708" height="850" alt="image" src="https://github.com/user-attachments/assets/415e7efe-8d15-494b-b035-d02e9e1799b6" />
 
+<img width="2092" height="1132" alt="image" src="https://github.com/user-attachments/assets/e3d33892-6fa0-4d91-8253-a1d457ac5067" />
 
 > 🔐 **Why federation?**
 > Temporary credentials are more secure than static access keys and automatically expire.
@@ -131,6 +132,8 @@ Optional features reviewed:
 <img width="2304" height="1464" alt="image" src="https://github.com/user-attachments/assets/802d7012-ed28-4dc9-ac71-289d78676edf" />
 
 <img width="2304" height="1464" alt="image" src="https://github.com/user-attachments/assets/7b06c3b9-e937-45eb-8b25-f1a823cd7e93" />
+
+<img width="1704" height="1334" alt="image" src="https://github.com/user-attachments/assets/6ceccd09-2f59-4138-84ba-2ebe79142731" />
 
 ---
 
