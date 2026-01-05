@@ -81,10 +81,10 @@ SNS Topic → Email Notification
 - Stored a dummy password (demo only)
 - Secret type: API keys and application secrets
 
+<img width="2934" height="1366" alt="image" src="https://github.com/user-attachments/assets/1c75dd5a-1ebc-4e76-9d0f-4a7e428dfd62" />
+
+
 <img width="2896" height="554" alt="image" src="https://github.com/user-attachments/assets/db6465f9-d5c7-4772-af83-575bdaff6701" />
-
-<img width="2896" height="554" alt="image" src="https://github.com/user-attachments/assets/eb7df91b-4034-427a-8a66-d5e1f9499187" />
-
 
 > In real environments, this would store database credentials, OAuth tokens, or production secrets.
 
@@ -201,5 +201,6 @@ Accessing secrets is logged as a **Write event** due to its security impact.
 ## 🧠 Key Takeaway
 
 > This project demonstrates how security teams **detect, alert, and respond** to sensitive access events using AWS-native tooling — without third-party systems.
+
 
 
