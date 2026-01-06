@@ -1,5 +1,7 @@
 # 📦 DevOps-Project-006  
 
+**VPC Traffic Flow and Security**
+
 <img width="1522" height="806" alt="image" src="https://github.com/user-attachments/assets/548f4a49-7731-479b-87e9-d5dd37d6cf1a" />
 
 ## AWS VPC Networking: Route Tables, Security Groups & Network ACLs
@@ -259,5 +261,6 @@ This layered model ensures **multiple security checkpoints**.
 - ✔ Routing validated
 - ✔ Security layers understood
 - ✔ Portfolio-ready documentation
+
 
 
