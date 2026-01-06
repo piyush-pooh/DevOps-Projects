@@ -1,4 +1,7 @@
 # 📦 DevOps-Project-006  
+
+<img width="1522" height="806" alt="image" src="https://github.com/user-attachments/assets/548f4a49-7731-479b-87e9-d5dd37d6cf1a" />
+
 ## AWS VPC Networking: Route Tables, Security Groups & Network ACLs
 
 ---
@@ -79,6 +82,9 @@ Example:
 ---
 
 ### Why a Route Table Makes a Subnet Public
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/8e3e2222-c11e-4c07-9d8b-2782a49027c3" />
+
 
 A subnet becomes **public** when:
 - It has a route table
@@ -243,3 +249,4 @@ This layered model ensures **multiple security checkpoints**.
 - ✔ Routing validated
 - ✔ Security layers understood
 - ✔ Portfolio-ready documentation
+
