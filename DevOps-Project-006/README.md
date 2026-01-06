@@ -90,6 +90,9 @@ A subnet becomes **public** when:
 - It has a route table
 - The route table contains `0.0.0.0/0 → Internet Gateway`
 
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/6e1bde83-5ca2-412c-96dd-9fd59e8570ff" />
+
+
 Without this rule, traffic **cannot leave the VPC**.
 
 ---
@@ -136,6 +139,8 @@ Examples:
 
 ### Why AWS Warns About `0.0.0.0/0`
 
+<img width="713" height="1296" alt="image" src="https://github.com/user-attachments/assets/8313a5bd-5977-49a1-a343-78fc182f06e7" />
+
 Allowing traffic from `0.0.0.0/0` means **any IP can access your resource**.
 
 - ⚠️ Risky in private environments
@@ -143,11 +148,16 @@ Allowing traffic from `0.0.0.0/0` means **any IP can access your resource**.
 
 Security is always about **context**, not absolutes.
 
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/9a20cc00-400d-4c30-a9de-f81a7d189421" />
+
 ---
 
 ## 🚦 Network ACLs (Subnet-Level Firewall)
 
 ### What is a Network ACL?
+
+<img width="1618" height="1530" alt="image" src="https://github.com/user-attachments/assets/d3cb4e54-e32d-44ca-90a3-674c35a54c88" />
+
 
 Network ACLs control traffic **at the subnet level**.
 
@@ -249,4 +259,5 @@ This layered model ensures **multiple security checkpoints**.
 - ✔ Routing validated
 - ✔ Security layers understood
 - ✔ Portfolio-ready documentation
+
 
