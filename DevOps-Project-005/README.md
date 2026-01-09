@@ -1,8 +1,9 @@
 # 📦 DevOps-Project-005  
 
+## AWS Secrets Access Monitoring & Alerting
+
 <img width="2956" height="1108" alt="image" src="https://github.com/user-attachments/assets/03ec738a-eab5-407d-af15-84e5ae06e07d" />
 
-## AWS Secrets Access Monitoring & Alerting
 
 ---
 
@@ -201,6 +202,7 @@ Accessing secrets is logged as a **Write event** due to its security impact.
 ## 🧠 Key Takeaway
 
 > This project demonstrates how security teams **detect, alert, and respond** to sensitive access events using AWS-native tooling — without third-party systems.
+
 
 
 
