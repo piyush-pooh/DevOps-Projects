@@ -229,6 +229,12 @@ aws s3 ls s3://piyush-vpc-project
 ```
 <img width="1414" height="372" alt="image" src="https://github.com/user-attachments/assets/2c3b9e09-6e63-4441-b512-536924618e10" />
 
+💡 What does this command say?
+Let's break it down!
+
+aws s3 cp: is the command to copy files.
+/tmp/test.txt is the source file path. It's saying that the file to copy is test.txt, which exists inside a folder called tmp.
+s3://nextwork-vpc-project-yourname is the destination path. It's saying that the file should be copied to the S3 bucket vpc-project-yourname!
 
 Successful output confirms:
 ✅ EC2 can authenticate to AWS
@@ -258,6 +264,7 @@ While access keys were used for learning:
 ---
 
 ✨ *Onward to VPC Endpoints and private connectivity in the next project!*
+
 
 
 
