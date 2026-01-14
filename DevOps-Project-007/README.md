@@ -181,6 +181,9 @@ These credentials allow the EC2 instance to interact with AWS services such as S
 * Create an S3 bucket (example: `piyush-vpc-project`)
 * Upload two files manually from the console
 
+![Uploading image.png…]()
+
+
 ---
 
 ## 🧩 Step 7 – Access S3 from the EC2 Instance
@@ -247,4 +250,5 @@ While access keys were used for learning:
 ---
 
 ✨ *Onward to VPC Endpoints and private connectivity in the next project!*
+
 
