@@ -1,5 +1,8 @@
 # 🚀 AWS Project 008 – Accessing Amazon S3 from a VPC using EC2
 
+<img width="1333" height="773" alt="image" src="https://github.com/user-attachments/assets/58195b50-f432-436d-911f-8880553f4cf6" />
+
+
 ## ⚡ 30‑Second Summary
 
 This project demonstrates how an EC2 instance inside a VPC can securely interact with AWS services that exist outside the VPC, such as Amazon S3.
@@ -255,6 +258,7 @@ While access keys were used for learning:
 ---
 
 ✨ *Onward to VPC Endpoints and private connectivity in the next project!*
+
 
 
 
