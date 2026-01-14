@@ -229,12 +229,17 @@ aws s3 ls s3://piyush-vpc-project
 ```
 <img width="1414" height="372" alt="image" src="https://github.com/user-attachments/assets/2c3b9e09-6e63-4441-b512-536924618e10" />
 
-💡 What does this command say?
-Let's break it down!
+## Understanding the `sudo touch /tmp/test.txt` Command
 
-aws s3 cp: is the command to copy files.
-/tmp/test.txt is the source file path. It's saying that the file to copy is test.txt, which exists inside a folder called tmp.
-s3://nextwork-vpc-project-yourname is the destination path. It's saying that the file should be copied to the S3 bucket vpc-project-yourname!
+The `sudo touch /tmp/test.txt` command is used in Linux environments, including AWS EC2 instances, to create a temporary file with elevated permissions.
+
+The `sudo` command stands for *superuser do* and allows a user to execute commands with administrator (root) privileges. This is often required when performing system-level operations such as creating files in protected directories.
+
+The `touch` command is a standard Linux utility used to create an empty file if it does not already exist. If the file already exists, the command updates the file’s timestamp instead.
+
+The `/tmp/` directory is a commonly used location for storing temporary files on Linux systems. Files in this directory may be removed automatically by the system.
+
+`test.txt` is the name of the file being created. As a result, this command creates an empty file named `test.txt` inside the `/tmp` directory on the EC2 instance, which can later be used for testing purposes such as uploading files to Amazon S3.
 
 Successful output confirms:
 ✅ EC2 can authenticate to AWS
@@ -264,6 +269,7 @@ While access keys were used for learning:
 ---
 
 ✨ *Onward to VPC Endpoints and private connectivity in the next project!*
+
 
 
 
