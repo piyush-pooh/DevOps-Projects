@@ -201,6 +201,7 @@ aws s3 ls
 ```bash
 aws s3 ls s3://piyush-vpc-project
 ```
+<img width="1152" height="138" alt="image" src="https://github.com/user-attachments/assets/3c2fc7d9-29d6-411d-bc88-3b1d73d2a885" />
 
 ---
 
@@ -223,6 +224,8 @@ aws s3 cp /tmp/test.txt s3://piyush-vpc-project
 ```bash
 aws s3 ls s3://piyush-vpc-project
 ```
+<img width="1414" height="372" alt="image" src="https://github.com/user-attachments/assets/2c3b9e09-6e63-4441-b512-536924618e10" />
+
 
 Successful output confirms:
 ✅ EC2 can authenticate to AWS
@@ -252,6 +255,7 @@ While access keys were used for learning:
 ---
 
 ✨ *Onward to VPC Endpoints and private connectivity in the next project!*
+
 
 
 
