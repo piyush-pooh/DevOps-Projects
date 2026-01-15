@@ -215,6 +215,8 @@ Note:
 - Public IP alone does not make a subnet public
 - Proper routing via IGW is required
 
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/e5106d75-1535-414c-8046-40a63f10fbf3" />
+
 ---
 
 ## ✅ What This Project Covers
@@ -245,6 +247,7 @@ A VPC is the **foundation of secure cloud architecture** in AWS.
 Understanding VPCs enables you to design **scalable, resilient, and secure systems** — a critical skill for any Cloud or DevOps Engineer.
 
 ---
+
 
 
 
