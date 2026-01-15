@@ -142,6 +142,9 @@ CIDR blocks are used across:
 
 ## 🏘 Subnets
 
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/a770d945-5269-4b81-969a-3629f9f9707d" />
+
+
 Subnets are **logical divisions** of a VPC and must belong to **one Availability Zone**.
 
 ### Why Subnets?
@@ -238,6 +241,7 @@ A VPC is the **foundation of secure cloud architecture** in AWS.
 Understanding VPCs enables you to design **scalable, resilient, and secure systems** — a critical skill for any Cloud or DevOps Engineer.
 
 ---
+
 
 
 
