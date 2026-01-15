@@ -120,6 +120,8 @@ CIDR defines **IP address ranges**.
 
 ### Example:
 
+<img width="1522" height="946" alt="image" src="https://github.com/user-attachments/assets/586d1863-5c3f-475d-b619-40d6a7f77a6b" />
+
 
 - `/16` means first 16 bits are fixed
 - Remaining 16 bits are variable
@@ -241,6 +243,7 @@ A VPC is the **foundation of secure cloud architecture** in AWS.
 Understanding VPCs enables you to design **scalable, resilient, and secure systems** — a critical skill for any Cloud or DevOps Engineer.
 
 ---
+
 
 
 
