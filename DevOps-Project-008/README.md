@@ -82,6 +82,8 @@ However, services like:
 
 No.
 
+<img width="1470" height="1190" alt="image" src="https://github.com/user-attachments/assets/1c7fce75-cc49-46dc-8ccb-8c9f4d693b21" />
+
 - The **internet** is a public, open network
 - A **VPC** is private and isolated by default
 
@@ -236,6 +238,7 @@ A VPC is the **foundation of secure cloud architecture** in AWS.
 Understanding VPCs enables you to design **scalable, resilient, and secure systems** — a critical skill for any Cloud or DevOps Engineer.
 
 ---
+
 
 
 
