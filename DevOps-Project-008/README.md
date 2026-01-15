@@ -94,3 +94,18 @@ A VPC can be connected to the internet using an **Internet Gateway**, but it is 
 An **IP address** is like a street address for resources inside a VPC.  
 AWS primarily uses **IPv4**, written as:
 
+
+### IPv4 Facts:
+- Each address has 4 numbers (0–255)
+- Total possible IPv4 addresses: 4,294,967,296
+- Two devices cannot share the same IP within the same network
+
+---
+
+## 🧮 CIDR Blocks (Classless Inter-Domain Routing)
+
+CIDR defines **IP address ranges**.
+
+### Example:
+
+
