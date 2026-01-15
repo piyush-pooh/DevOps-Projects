@@ -24,6 +24,8 @@ A VPC is a **secure, isolated virtual network** in AWS where you control:
 
 It allows resources like **EC2 instances, databases, and services** to communicate in a controlled and private environment.
 
+<img width="2940" height="1912" alt="VPC" src="https://github.com/user-attachments/assets/6c946eff-4444-4fc4-bd7b-bbdb81978002" />
+
 ---
 
 ## 🤔 Why Do VPCs Matter?
@@ -90,6 +92,8 @@ AWS exists within **cyberspace**, which includes:
 
 A VPC can be connected to the internet using an **Internet Gateway**, but it is not the internet itself.
 
+<img width="1322" height="1171" alt="VPC and Internet" src="https://github.com/user-attachments/assets/581b1434-e326-46cd-bcc0-bf16e07af90c" />
+
 ---
 
 ## 📡 IP Addresses & IPv4
@@ -102,6 +106,9 @@ AWS primarily uses **IPv4**, written as:
 - Each address has 4 numbers (0–255)
 - Total possible IPv4 addresses: 4,294,967,296
 - Two devices cannot share the same IP within the same network
+
+<img width="699" height="1099" alt="IP address work with VPC" src="https://github.com/user-attachments/assets/6f6ed029-074e-4df7-b2b7-fa4e4690af7b" />
+
 
 ---
 
@@ -229,6 +236,7 @@ A VPC is the **foundation of secure cloud architecture** in AWS.
 Understanding VPCs enables you to design **scalable, resilient, and secure systems** — a critical skill for any Cloud or DevOps Engineer.
 
 ---
+
 
 
 
