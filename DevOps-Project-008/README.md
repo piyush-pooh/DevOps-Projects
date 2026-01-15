@@ -208,6 +208,8 @@ The default VPC already has an IGW attached, allowing immediate internet access.
 
 ---
 
+<img width="971" height="801" alt="image" src="https://github.com/user-attachments/assets/190c3680-4ee7-4d5e-b0c1-3a485b94ce2f" />
+
 ## 🌐 Auto-Assign Public IPv4 Address
 
 When enabled on a subnet:
@@ -250,13 +252,3 @@ A VPC is the **foundation of secure cloud architecture** in AWS.
 Understanding VPCs enables you to design **scalable, resilient, and secure systems** — a critical skill for any Cloud or DevOps Engineer.
 
 ---
-
-
-
-
-
-
-
-
-
-
