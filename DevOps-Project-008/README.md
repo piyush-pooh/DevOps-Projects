@@ -1,5 +1,8 @@
 # 🌐 AWS Networking Fundamentals – VPC, Subnets & Internet Gateway
 
+<img width="989" height="811" alt="architecture" src="https://github.com/user-attachments/assets/2855fd2e-f75f-4d62-b1f6-b431a177d637" />
+
+
 ## 📌 Overview
 
 This project documents the foundational concepts of **AWS Virtual Private Cloud (VPC)**, including subnets, CIDR blocks, IP addressing, Availability Zones, and Internet Gateways.  
@@ -226,5 +229,6 @@ A VPC is the **foundation of secure cloud architecture** in AWS.
 Understanding VPCs enables you to design **scalable, resilient, and secure systems** — a critical skill for any Cloud or DevOps Engineer.
 
 ---
+
 
 
