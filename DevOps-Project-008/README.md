@@ -109,3 +109,122 @@ CIDR defines **IP address ranges**.
 ### Example:
 
 
+- `/16` means first 16 bits are fixed
+- Remaining 16 bits are variable
+- Total IPs: `2^16 = 65,536`
+- Range: `10.0.0.0` → `10.0.255.255`
+
+### CIDR Rules:
+- Smaller number after `/` → larger network
+- Larger number after `/` → smaller network
+- IPv4 ranges from `/0` to `/32`
+
+CIDR blocks are used across:
+- VPCs
+- Subnets
+- Route tables
+- Security Groups
+- Network ACLs
+
+---
+
+## 🏘 Subnets
+
+Subnets are **logical divisions** of a VPC and must belong to **one Availability Zone**.
+
+### Why Subnets?
+- Organize resources
+- Apply different access rules
+- Improve security and availability
+
+### Important Rules:
+- Subnets within a VPC **cannot overlap**
+- A VPC can have multiple public and private subnets
+
+---
+
+## 🌐 Public vs Private Subnets
+
+| Subnet Type | Internet Access |
+|------------|----------------|
+| Public Subnet | Route to Internet Gateway |
+| Private Subnet | No direct internet route |
+
+A subnet is considered **public only if**:
+1. Its route table has `0.0.0.0/0 → Internet Gateway`
+2. Instances have public or Elastic IPs
+
+### Use Cases:
+- Public subnet → Web servers
+- Private subnet → Databases, internal services
+
+---
+
+## 🌍 Availability Zones (AZs)
+
+An AWS Region contains multiple **Availability Zones**, which are isolated data center clusters.
+
+### Benefits:
+- High availability
+- Fault tolerance
+- Disaster resilience
+
+Each subnet belongs to **one AZ only**, not the entire region.
+
+---
+
+## 🚪 Internet Gateway (IGW)
+
+An **Internet Gateway** is a managed AWS component that connects a VPC to the public internet.
+
+### Key Points:
+- Horizontally scalable
+- Highly available
+- Enables inbound and outbound internet traffic
+
+The default VPC already has an IGW attached, allowing immediate internet access.
+
+---
+
+## 🌐 Auto-Assign Public IPv4 Address
+
+When enabled on a subnet:
+- EC2 instances automatically receive a public IP at launch
+- Saves manual configuration time
+
+Note:
+- Public IP alone does not make a subnet public
+- Proper routing via IGW is required
+
+---
+
+## ✅ What This Project Covers
+
+- ✔ Understanding AWS VPC architecture
+- ✔ CIDR blocks and IP addressing
+- ✔ Public and private subnets
+- ✔ Availability Zones
+- ✔ Internet Gateway configuration
+- ✔ Default VPC behavior
+
+---
+
+## 🚀 Next Learning Steps
+
+To go deeper into AWS networking:
+- Route Tables
+- NAT Gateway vs Internet Gateway
+- Security Groups vs Network ACLs
+- VPC Flow Logs
+- Bastion Host architecture
+
+---
+
+## 🧠 Key Takeaway
+
+A VPC is the **foundation of secure cloud architecture** in AWS.  
+Understanding VPCs enables you to design **scalable, resilient, and secure systems** — a critical skill for any Cloud or DevOps Engineer.
+
+---
+
+
