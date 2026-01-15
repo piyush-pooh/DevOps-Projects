@@ -140,6 +140,8 @@ CIDR blocks are used across:
 - Security Groups
 - Network ACLs
 
+<img width="1168" height="808" alt="image" src="https://github.com/user-attachments/assets/5ed507a4-ec25-4ac7-8005-3d407657319e" />
+
 ---
 
 ## 🏘 Subnets
@@ -243,6 +245,7 @@ A VPC is the **foundation of secure cloud architecture** in AWS.
 Understanding VPCs enables you to design **scalable, resilient, and secure systems** — a critical skill for any Cloud or DevOps Engineer.
 
 ---
+
 
 
 
