@@ -190,6 +190,9 @@ An AWS Region contains multiple **Availability Zones**, which are isolated data 
 
 Each subnet belongs to **one AZ only**, not the entire region.
 
+<img width="2792" height="1336" alt="image" src="https://github.com/user-attachments/assets/1fe506de-c307-474d-9c3f-e733679e6ce8" />
+
+
 ---
 
 ## 🚪 Internet Gateway (IGW)
@@ -247,6 +250,7 @@ A VPC is the **foundation of secure cloud architecture** in AWS.
 Understanding VPCs enables you to design **scalable, resilient, and secure systems** — a critical skill for any Cloud or DevOps Engineer.
 
 ---
+
 
 
 
