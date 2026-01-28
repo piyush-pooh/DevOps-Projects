@@ -14,7 +14,7 @@ The goal is to build **strong networking fundamentals**, which are critical for 
 
 ## ☁️ What is a VPC?
 
-If an **AWS Region** is a *country*, a **Virtual Private Cloud (VPC)** is your *own private city* inside that country.
+If an **AWS Region** is a *country*, a **Virtual Private Cloud (VPC)** is your *own private city* inside that country. A Virtual Private Cloud (VPC) is a secure, isolated, private network hosted within a public cloud provider's infrastructure, such as AWS, Google Cloud, or Azure
 
 A VPC is a **secure, isolated virtual network** in AWS where you control:
 - IP address ranges
@@ -252,4 +252,5 @@ A VPC is the **foundation of secure cloud architecture** in AWS.
 Understanding VPCs enables you to design **scalable, resilient, and secure systems** — a critical skill for any Cloud or DevOps Engineer.
 
 ---
+
 
